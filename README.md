@@ -9,7 +9,7 @@
 
 3: adicionar um schema no workbench com o nome smarkio_test.
 
-3: instalar o angular/cli e nodejs.
+3: instalar o angular/cli, nodejs e o wampserver para rodar o banco e migration localmente.
 
 4: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
 	
