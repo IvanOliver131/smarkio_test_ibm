@@ -8,7 +8,10 @@
 
 2: ter instalado o mySql server e workbench.
 
-3: adicionar um schema no workbench com o nome smarkio_test.
+3: adicionar um schema no workbench com o nome smarkio_test. Voce pode criar ums chema clicando neste icone conforme a imagem abaixo.
+
+![image](https://user-images.githubusercontent.com/62350674/123459422-a690af80-d5bc-11eb-9d15-7c01b9a683ef.png)
+
 
 3: instalar o angular/cli, nodejs e o wampserver para rodar o banco e migration localmente.
 
