@@ -10,6 +10,13 @@
 
 3: instalar o angular/cli, nodejs e o wampserver para rodar o banco e migration localmente.
 
+https://nodejs.org/en/
+
+https://angular.io/cli
+
+https://sourceforge.net/projects/wampserver/
+
+
 4: adicionar um schema no workbench com o nome smarkio_test. Voce pode criar um schema clicando neste icone conforme a imagem abaixo.
 
 ![image](https://user-images.githubusercontent.com/62350674/123459422-a690af80-d5bc-11eb-9d15-7c01b9a683ef.png)
