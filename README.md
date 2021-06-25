@@ -42,6 +42,7 @@
 
  
  #FrontEnd
+ 
 8: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
 	npm i;
