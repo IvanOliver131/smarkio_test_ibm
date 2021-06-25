@@ -15,6 +15,8 @@
 4: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
 	
   	yarn;
+	/*** O COMANDO TYPEORM DEVE SER RODADO QUANDO O SCHEMA DO WORKBENCH JA ESTEJA CRIADO, DESSA FORMA
+	ELE IRA ADICIONAR AS TABELAS NECESSARIAS ***/
 	yarn typeorm migration:run;
 	yarn dev;
 	
