@@ -12,17 +12,19 @@
 
 3: instalar o angular/cli, nodejs e o wampserver para rodar o banco e migration localmente.
 
-4: criei um arquivo .env dentro da pasta "smarkio_test_api" e coloque os seus dados como no exemplo:
+4: crie um arquivo .env dentro da pasta "smarkio_test_api" e coloque os seus dados como no exemplo:
 
-![image](https://user-images.githubusercontent.com/62350674/123427368-ea72bd00-d59a-11eb-9e16-e1cb6dc46a18.png)
+![image](https://user-images.githubusercontent.com/62350674/123447096-de452a80-d5af-11eb-914d-0aee9a40a101.png)
 
-5: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key".
+5: informe tambem estes dados dentro do arquivo "ormconfig.json" da pasta "smarkio_test_api"
+
+6: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key".
 
  	/********************* INFORM YOUR KEY and URL here ****************/
         const API_KEY = 'sua api-key'
         const API_URL = "seu url
 
-6: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
+7: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
 	
   	yarn;
 	/*** O COMANDO TYPEORM DEVE SER RODADO QUANDO O SCHEMA DO WORKBENCH JA ESTEJA CRIADO, DESSA FORMA
