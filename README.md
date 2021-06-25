@@ -1,6 +1,6 @@
 # smarkio_test_ibm
 
-
+![image](https://user-images.githubusercontent.com/62350674/123356441-1e6bc500-d53e-11eb-92c1-e2ff90882e74.png)
 
 #necessidades para rodar a aplicação
 
