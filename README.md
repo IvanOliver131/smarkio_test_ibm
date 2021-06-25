@@ -1,6 +1,7 @@
 # smarkio_test_ibm
 
 
+
 #necessidades para rodar a aplicação
 
 1: criar login no IBM para conseguir uma chave e uma api.
@@ -20,17 +21,17 @@
 	
 	/*** CASO OCORRA ERRO DE CORS ****/
   	yarn add @types/cors --save-dev;
-  
-5: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
-	npm i;
-	ng s;
-
-6: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key".
+	
+5: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key".
 
  	/********************* INFORM YOUR KEY and URL here ****************/
         const API_KEY = 'sua api-key'
-        const API_URL = "seu url"
-
-7: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
+        const API_URL = "seu url
+  
+6: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
+	
 	npm i;
 	ng s;
+
+
+
