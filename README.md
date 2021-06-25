@@ -24,6 +24,8 @@
         const API_KEY = 'sua api-key'
         const API_URL = "seu url
 
+#BackEnd
+
 7: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
 	
   	yarn;
@@ -35,13 +37,15 @@
 	
 	/*** CASO OCORRA ERRO DE CORS ****/
   	yarn add @types/cors --save-dev;
-	
 
-  
-7: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
+![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
+
+ 
+ #FrontEnd
+8: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
 	npm i;
 	ng s;
 
-
+![Uploading image.png…]()
 
