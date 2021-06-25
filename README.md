@@ -24,7 +24,7 @@
         const API_KEY = 'sua api-key'
         const API_URL = "seu url
 
-#BackEnd
+# BackEnd
 
 7: abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos:
 	
@@ -41,7 +41,7 @@
 ![image](https://user-images.githubusercontent.com/62350674/123448071-e81b5d80-d5b0-11eb-86e4-f709621124b6.png)
 
  
- #FrontEnd
+# FrontEnd
  
 8: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
