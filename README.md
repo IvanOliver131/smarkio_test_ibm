@@ -38,7 +38,7 @@
 	/*** CASO OCORRA ERRO DE CORS ****/
   	yarn add @types/cors --save-dev;
 
-![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
+![image](https://user-images.githubusercontent.com/62350674/123448071-e81b5d80-d5b0-11eb-86e4-f709621124b6.png)
 
  
  #FrontEnd
@@ -47,5 +47,4 @@
 	npm i;
 	ng s;
 
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
