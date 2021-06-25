@@ -12,7 +12,7 @@
 
 ![image](https://user-images.githubusercontent.com/62350674/123459422-a690af80-d5bc-11eb-9d15-7c01b9a683ef.png)
 
-![image](https://user-images.githubusercontent.com/62350674/123459945-5239ff80-d5bd-11eb-8afe-7f86e42a2059.png)
+![image](https://user-images.githubusercontent.com/62350674/123460003-65e56600-d5bd-11eb-88d8-42ec7ac8ed36.png)
 
 
 3: instalar o angular/cli, nodejs e o wampserver para rodar o banco e migration localmente.
