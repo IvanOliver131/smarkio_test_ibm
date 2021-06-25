@@ -18,7 +18,7 @@
 
 5: informe tambem estes dados dentro do arquivo "ormconfig.json" da pasta "smarkio_test_api"
 
-6: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key".
+6: Dentro do arquivo VoiceController.ts na pasta "smarkio_test_api" voce deve informar a sua própria "api-key", porem para ser mais pratico deixei a minha propria chave.
 
  	/********************* INFORM YOUR KEY and URL here ****************/
         const API_KEY = 'sua api-key'
