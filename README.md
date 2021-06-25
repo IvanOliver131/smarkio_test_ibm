@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/62350674/123356441-1e6bc500-d53e-11eb-92c1-e2ff90882e74.png)
 
-#necessidades para rodar a aplicação
+# necessidades para rodar a aplicação
 
 1: criar login no IBM para conseguir uma chave e uma api.
 
