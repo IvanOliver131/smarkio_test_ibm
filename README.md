@@ -15,10 +15,11 @@
 	
   	yarn;
 	yarn typeorm migration:run;
-	yarn add @types/cors --save-dev;
 	yarn dev;
 	
-  /* caso ocorra erro de cors */
+	
+	/*** CASO OCORRA ERRO DE CORS ****/
+  	yarn add @types/cors --save-dev;
   
 5: abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	npm i;
