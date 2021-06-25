@@ -1,0 +1,38 @@
+<div class="container-comment">
+  <div class="box row">
+    <!-- INSERT COMMENTS -->
+    <div class="col-sm division">
+      <form>
+        <div class="form-group">
+          <label class="label-comment">Comentário</label>
+          <textarea id="comment" name="comment" class="form-control" placeholder="Insira um comentário" [(ngModel)]="comment"></textarea>
+          <button type="button" class="btn btn-primary" (click)="addOneComment(comment)">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- LIST COMMENTS -->
+    <div class="col-sm format-list">
+      <label class="label-comment">Comentários</label> 
+
+      <div id="divContent">
+
+        <!-- CARD COMMENTS -->
+        <div class="card mb-3" *ngFor="let c of commentsLst">
+          <div class="row g-0">  
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">{{c.descricao}}</p>
+              </div>
+            </div>
+            <div class="col-md-3 align-button">
+              <button class="btn btn-primary" (click)="getVoiceComments(c.descricao)">Ouvir</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

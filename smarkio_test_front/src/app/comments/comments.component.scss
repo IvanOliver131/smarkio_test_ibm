@@ -1,0 +1,66 @@
+.container-comment {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(123, 177, 235);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.form-control{
+  margin-top: 1vh;
+  height: 40vh;
+}
+
+.label-comment{
+  font-weight: 500;
+}
+
+#divContent{
+  display: block;
+  width: 100%;
+  height: 65vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth; 
+  padding-right: 5px;
+}
+
+.align-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.division{
+  border-right: 1px solid rgb(115, 115, 255);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.card{
+  margin-top: 15px;
+}
+
+.format-list{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.btn{
+  margin-top: 1vh;
+  width: 100%;
+}
+
+
