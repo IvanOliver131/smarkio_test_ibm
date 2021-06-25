@@ -4,6 +4,7 @@ class VoiceController {
     async talk(req: Request, res: Response) {
         console.log(req.query)
 
+        /************ INFORM YOUR API_KEY AND YOU API_URL HERE **************/
         const API_KEY = '51R3zTmYwTyYJqWSAi4NaeQSDJvgt7x6BkfNg1PCUR_9'
         const API_URL = "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/3477115f-fab2-4f8a-95b2-e9e09e8ceed4"
 
