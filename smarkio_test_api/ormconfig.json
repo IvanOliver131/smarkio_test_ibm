@@ -1,9 +1,9 @@
 {
   "type": "mysql",
-  "host": "localhost",
-  "port": 3306,
-  "username": "root",
-  "password": "root",
+  "host": "host",
+  "port": "port",
+  "username": "username",
+  "password": "password",
   "database": "smarkio_test",
   "entities": [
     "src/app/models/*.ts"
