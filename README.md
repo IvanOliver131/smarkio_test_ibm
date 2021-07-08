@@ -76,7 +76,7 @@ https://sourceforge.net/projects/wampserver/
 	docker-compose up --build
 
 ##BackEnd
-9: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
+3: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
 	
   	yarn;
 	
@@ -89,7 +89,7 @@ https://sourceforge.net/projects/wampserver/
  
 ##FrontEnd
  
-9: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
+4: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
 	npm i;
 	ng s;
