@@ -65,3 +65,33 @@ https://sourceforge.net/projects/wampserver/
 	ng s;
 
 ![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
+
+
+#RUN with docker
+
+1: Instale o docker
+
+2: Abra a pasta "smarkio_test_ibm" no terminal e rode o comando:
+	
+	docker-compose up --build
+
+##BackEnd
+9: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
+	
+  	yarn;
+	
+	/*** O COMANDO TYPEORM DEVE SER RODADO QUANDO O SCHEMA DO WORKBENCH JA ESTEJA CRIADO, DESSA FORMA
+	ELE IRA ADICIONAR AS TABELAS NECESSARIAS ***/
+	
+	yarn typeorm migration:run;
+	yarn dev;
+
+ 
+##FrontEnd
+ 
+9: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
+	
+	npm i;
+	ng s;
+
+
