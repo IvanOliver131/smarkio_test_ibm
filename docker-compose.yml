@@ -1,0 +1,11 @@
+version: "3"
+
+services: 
+  localhost:
+    image: mysql:5
+    container_name: smarkioDb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: smarkio_test
+    ports:
+      - "3306:3306"
