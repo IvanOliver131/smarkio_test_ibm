@@ -27,6 +27,7 @@ export class CommentsComponent implements OnInit {
     }
     else {
       this.commentsSvc.addComments(comment).subscribe(() => {
+        this.comment = '';
         this.getAllComments();
       },
         (err) => {
