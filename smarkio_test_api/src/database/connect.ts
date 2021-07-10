@@ -1,6 +1,6 @@
 import { createConnection } from 'typeorm';
-require('dotenv').config({ path: '.env' })
-
+//require('dotenv').config({ path: '.env' })
+/*
 const config: any = ({
     "type": process.env.TYPEORM_TYPE,
     "host": process.env.TYPEORM_HOST,
@@ -17,6 +17,8 @@ const config: any = ({
     "cli": {
         "migrationsDir": "src/database/migrations"
     }
-})
+})*/
 
-createConnection(config).then(() => console.log('Sucessfuly connected with database'));
+//createConnection(config).then(() => console.log('Sucessfuly connected with database'));
+
+createConnection().then(() => console.log('Sucessfuly connected with database'));
