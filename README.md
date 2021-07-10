@@ -67,7 +67,7 @@ https://sourceforge.net/projects/wampserver/
 ![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
 
 
-#RUN with docker
+# RUN with docker
 
 1: Instale o docker
 
@@ -75,7 +75,7 @@ https://sourceforge.net/projects/wampserver/
 	
 	docker-compose up --build
 
-##BackEnd
+## BackEnd
 3: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
 	
   	yarn;
@@ -87,7 +87,7 @@ https://sourceforge.net/projects/wampserver/
 	yarn dev;
 
  
-##FrontEnd
+## FrontEnd
  
 4: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
