@@ -44,15 +44,17 @@ https://sourceforge.net/projects/wampserver/
 
 8: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
 	
-  	yarn;
+  	yarn
+	
 	/*** O COMANDO TYPEORM DEVE SER RODADO QUANDO O SCHEMA DO WORKBENCH JA ESTEJA CRIADO, DESSA FORMA
 	ELE IRA ADICIONAR AS TABELAS NECESSARIAS ***/
-	yarn typeorm migration:run;
-	yarn dev;
+	
+	yarn typeorm migration:run
+	yarn dev
 	
 	
 	/*** CASO OCORRA ERRO DE CORS ****/
-  	yarn add @types/cors --save-dev;
+  	yarn add @types/cors --save-dev
 
 ![image](https://user-images.githubusercontent.com/62350674/123448071-e81b5d80-d5b0-11eb-86e4-f709621124b6.png)
 
@@ -61,8 +63,8 @@ https://sourceforge.net/projects/wampserver/
  
 9: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
-	npm i;
-	ng s;
+	npm i
+	ng s
 
 ![image](https://user-images.githubusercontent.com/62350674/123447984-d0dc7000-d5b0-11eb-9cfa-8ac56b5262db.png)
 
@@ -78,20 +80,20 @@ https://sourceforge.net/projects/wampserver/
 ## BackEnd
 3: Abrir a pasta smarkio_test_api no terminal e rodar os seguintes comandos abaixo:
 	
-  	yarn;
+  	yarn
 	
 	/*** O COMANDO TYPEORM DEVE SER RODADO QUANDO O SCHEMA DO WORKBENCH JA ESTEJA CRIADO, DESSA FORMA
 	ELE IRA ADICIONAR AS TABELAS NECESSARIAS ***/
 	
-	yarn typeorm migration:run;
-	yarn dev;
+	yarn typeorm migration:run
+	yarn dev
 
  
 ## FrontEnd
  
 4: Abrir a pasta smarkio_test_front no terminal e rodar os seguintes comandos:
 	
-	npm i;
-	ng s;
+	npm i
+	ng s
 
 
